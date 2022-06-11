@@ -23,11 +23,11 @@ function Navbar() {
       
       <div className='flex w-2/3 justify-around hidden md:block md:flex'>
         
-      <Link className='  text-gray-600 text-grey-400  py-1 text-lg ' href="#">Collections</Link>
-        <Link className=' text-gray-600 text-grey-400  py-1 text-lg ' href="#">Men</Link>
-        <Link className=' text-gray-600 text-grey-400  py-1 text-lg ' href="#">Women</Link>
-       <Link className=' text-gray-600 text-grey-400  py-1 text-lg ' href="#">About</Link>
-       <Link className=' text-gray-600 text-grey-400  py-1 text-lg ' href="#">Contact</Link>
+      <Link className='  text-gray-600 text-grey-400 hover:text-orange-500 py-1 text-lg ' href="#">Collections</Link>
+        <Link className=' text-gray-600 text-grey-400 hover:text-orange-500 py-1 text-lg ' href="#">Men</Link>
+        <Link className=' text-gray-600 text-grey-400 hover:text-orange-500 py-1 text-lg ' href="#">Women</Link>
+       <Link className=' text-gray-600 text-grey-400  hover:text-orange-500 py-1 text-lg ' href="#">About</Link>
+       <Link className=' text-gray-600 text-grey-400 hover:text-orange-500  py-1 text-lg ' href="#">Contact</Link>
       </div>
       
         </div>
@@ -41,11 +41,11 @@ function Navbar() {
     
     </div>
     <div className='grid grid-col-1 justify-around  ' style={{backgroundColor:"#ff7c1a",display:`${isOpen? '':'none'}`}}>
-      <Link className='  text-gray-600 text-white  py-4 text-lg  ' href="#">Collections</Link>
-        <Link className=' text-gray-600 text-white  py-4 text-lg ' href="#">Men</Link>
-        <Link className=' text-gray-600 text-white  py-4 text-lg ' href="#">Women</Link>
-       <Link className=' text-gray-600 text-white  py-4 text-lg ' href="#">About</Link>
-       <Link className=' text-gray-600 text-white  py-4 text-lg ' href="#">Contact</Link>
+      <Link className='  text-gray-600 text-white  hover:text-gray-200  py-4 text-lg  ' href="#">Collections</Link>
+        <Link className=' text-gray-600 text-white  hover:text-gray-200 py-4 text-lg ' href="#">Men</Link>
+        <Link className=' text-gray-600 text-white  hover:text-gray-200 py-4 text-lg ' href="#">Women</Link>
+       <Link className=' text-gray-600 text-white  hover:text-gray-200 py-4 text-lg ' href="#">About</Link>
+       <Link className=' text-gray-600 text-white hover:text-gray-200  py-4 text-lg ' href="#">Contact</Link>
       </div>
 
 
