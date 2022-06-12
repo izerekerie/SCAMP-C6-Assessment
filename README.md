@@ -1,6 +1,6 @@
 ## Eccommerce Product page
 This is product page page for any ecommerce  from She code Africa that has  good product view
-part built using react js 
+part built using vite js for react  and tailwind css
 
 ## Project Status
 the project is finished you can fin it here
@@ -10,15 +10,12 @@ Clone down this repository. You will need `node` and `npm` installed globally on
 
 Installation:
 
-`npm install`  
-
-To Run Test Suite:  
-
-`npm test`  
+`yarn install`or npm install`  
+ 
 
 To Start Server:
 
-`npm start`  
+`yarn dev` or`npm run dev`  
 
 To Visit App:
 
