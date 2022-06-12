@@ -1,6 +1,6 @@
 ## Eccommerce Product page
-This is product page page for any ecommerce that has  good product view
-part built using react js
+This is product page page for any ecommerce  from She code Africa that has  good product view
+part built using react js 
 
 ## Project Status
 the project is finished you can fin it here
