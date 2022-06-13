@@ -1,11 +1,22 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import cart2 from '../../assets/cartw.svg'
 import plus from '../../assets/plus.svg'
 import minus from '../../assets/minus.svg'
+import left from '../../assets/left.svg'
+import right from '../../assets/right.svg'
 import { useState } from 'react'
 import img from '../../assets/shoe1.jpg'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css"
+import "swiper/css/effect-fade"
+import "swiper/css/navigation";
+import { EffectFade, Navigation } from "swiper";
+
 function Body() {
-   
+
+  const swipweNavPrevRef=useRef(null);
+   const swipweNavNextRef=useRef(null);
+
     const images=[
         {id:1,source:'../assets/shoe1.jpg'},
         {id:2,source:'../../assets/shoe2.jpg'},
@@ -16,10 +27,32 @@ function Body() {
     const [current,setCurrent]=useState(images[0].source);
   return (
     <>
-          <div className='md:flex m-20 justify-center'>
-         <div className='md:w-1/2  md:p-12'>
+    <Swiper
+      modules={[Navigation,EffectFade]}
+      navigation
+     speed={800}
+     effect
+     loop
+     slidesPerView={1}
+      className="w-11/12 mt-12 h-72 block md:hidden  "
+
+      >        {images.map((img)=>{
+        return(
+        <>
+        <SwiperSlide>
+           <img  className=' object-cover w-full h-full rounded active:border-2 active:border-orange-500 active:opacity-50
+                transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none
+                ' src={img.source}/>
+          </SwiperSlide>
+
+           
+              </>
+              )})}
+      </Swiper>
+          <div className=' block  md:flex m-20 justify-center'>
+         <div className=' hidden md:block md:w-1/2  md:p-12'>
            <img className=' w-11/12 rounded' src={current} />
-           <div className='w-11/12 flex p-4 justify-between'>
+           <div className='w-11/12 flex  p-4 justify-between'>
               {images.map((img)=>{return(
                 <img onClick={()=>setCurrent(img.source)} className='w-20 h-20 rounded active:border-2 active:border-orange-500 active:opacity-50
                 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none
@@ -28,6 +61,9 @@ function Body() {
            </div>
 
          </div>
+
+
+
 
          <div className='md:w-1/2 p-2'>
           <p className='  font-bold py-4  ' style={{color:'#ff7c1a'}}>SNEAKER COMPANY</p>
@@ -60,3 +96,4 @@ function Body() {
 }
 
 export default Body
+

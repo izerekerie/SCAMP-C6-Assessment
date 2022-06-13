@@ -1,0 +1,22 @@
+.swiperNavNext,.swiperNavPrev{
+    top:50%;
+    position: absolute;
+    width:59px;
+    transform: translateY(-50%);
+    height:50px;
+    z-index:1;
+    cursor:pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.swiperNavPrev{
+    left: 0;
+    background-image: url('../../assets/left.svg');
+
+}
+.swiperNavNext{
+    right: 0;
+    background-image: url('../../assets/right.svg');
+    
+}

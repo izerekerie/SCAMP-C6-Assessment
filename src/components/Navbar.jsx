@@ -41,11 +41,11 @@ function Navbar() {
     
     </div>
     <div className='grid grid-col-1 justify-around  ' style={{backgroundColor:"#ff7c1a",display:`${isOpen? '':'none'}`}}>
-      <Link className='  text-gray-600 text-white  hover:text-gray-200  py-4 text-lg  ' href="#">Collections</Link>
-        <Link className=' text-gray-600 text-white  hover:text-gray-200 py-4 text-lg ' href="#">Men</Link>
-        <Link className=' text-gray-600 text-white  hover:text-gray-200 py-4 text-lg ' href="#">Women</Link>
-       <Link className=' text-gray-600 text-white  hover:text-gray-200 py-4 text-lg ' href="#">About</Link>
-       <Link className=' text-gray-600 text-white hover:text-gray-200  py-4 text-lg ' href="#">Contact</Link>
+      <Link className='   text-white  hover:text-gray-300  py-4 text-lg  ' href="#">Collections</Link>
+        <Link className='  text-white  hover:text-gray-300 py-4 text-lg ' href="#">Men</Link>
+        <Link className=' text-white  hover:text-gray-300 py-4 text-lg ' href="#">Women</Link>
+       <Link className='  text-white  hover:text-gray-300 py-4 text-lg ' href="#">About</Link>
+       <Link className='  text-white hover:text-gray-300  py-4 text-lg ' href="#">Contact</Link>
       </div>
 
 
