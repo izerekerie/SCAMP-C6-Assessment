@@ -3,7 +3,7 @@ This is product page page for any ecommerce  from She code Africa that has  good
 part built using vite js for react  and tailwind css
 
 ## Project Status
-the project is finished you can fin it here
+the project is finished you can fin it here  `https://ecommercesca.netlify.app/`
 
 ## Installation and Setup Instructions
 Clone down this repository. 
