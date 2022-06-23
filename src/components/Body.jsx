@@ -12,7 +12,7 @@ import "swiper/css/effect-fade"
 import "swiper/css/navigation";
 import { EffectFade, Navigation } from "swiper";
 
-import Image1 from '../assets/shoe1.jpg'
+import Image1 from '../../assets/shoe1.jpg'
 
 function Body() {
 
