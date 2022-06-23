@@ -14,8 +14,8 @@ import { EffectFade, Navigation } from "swiper";
 
 import Image1 from '../../assets/shoe1.jpg'
 import Image2 from '../../assets/shoe2.jpg'
-import Image3 from '../assets/shoe3.jpg'
-import Image4 from '../assets/shoe4.jpg'
+import Image3 from '../../assets/shoe3.jpg'
+import Image4 from '../../assets/shoe4.jpg'
 function Body() {
 
   const swipweNavPrevRef=useRef(null);
